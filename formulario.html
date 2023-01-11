@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exemplos Formulário</title>
+  </head>
+  <body>
+    <div>
+      <h2>Exemplos de input</h2>
+      <input type="text" />
+      <br />
+      <input type="checkbox" />
+      <br />
+      <input type="date" />
+      <br />
+      <input type="password" />
+      <br />
+      <input type="email" />
+    </div>
+
+    <div>
+      <h2>Text area</h2>
+      <textarea cols="30" rows="10"></textarea>
+      <br />
+      <button>Botão</button>
+    </div>
+    <div>
+      <h2>Select tag</h2>
+      <select>
+        <option value="" selected disabled>--Selecione uma opção--</option>
+        <option value="valor1">Valor 1</option>
+        <option value="valor2">Valor 2</option>
+        <option value="valor3">Valor 3</option>
+      </select>
+    </div>
+<br>
+<hr>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" name="nome" id="nome">
+        </div>
+        <div>
+            <label for="tipo-avaliacao">Tipo de Avaliação</label>
+            <select name="tipo-avaliacao" id="tipo-avaliacao">
+                <option value="" selected disabled>-- selecione uma opção --</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="reclamacao">Reclamação</option>
+                <option value="elogio">Elogio</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" name="avaliacao" id="ruim" value="ruim">
+            <label for="ruim">Ruim</label>
+            <br>
+            <input type="radio" name="avaliacao" id="bom" value="bom">
+            <label for="bom">Bom</label>
+            <br>
+            <input type="radio" name="avaliacao" id="muito-bom" value="muito-bom">
+            <label for="muit-bom">Muito Bom</label>
+        </div>
+
+        <div>
+            <label for="descricao">Descrição</label>
+            <textarea name="descricao" cols="30" rows="10"></textarea>
+        </div>
+        <button>Enviar</button>
+    </form>
+  </body>
+</html>
